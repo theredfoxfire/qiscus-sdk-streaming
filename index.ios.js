@@ -43,6 +43,7 @@ export default class StreamingSDK extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.fieldContainer}>
+          <Text>StreamingSDK RN 0.44.0</Text>
           <TextInput placeholder="Type URL" style={styles.textField} value={this.state.url} />
         </View>
         <View style={styles.buttonContainer}>
