@@ -25,7 +25,6 @@ export default class StreamingSDK extends Component {
     };
   }
    createStreaming() {
-     console.log(Qiscus);
       return Qiscus.createStreaming("streaming",["example"] , (error, string) => {
       if (error) {
         console.log(error);
