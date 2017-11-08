@@ -1,0 +1,6 @@
+framework module QiscusStreaming {
+  umbrella header "QiscusStreaming-umbrella.h"
+
+  export *
+  module * { export * }
+}

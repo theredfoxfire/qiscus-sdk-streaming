@@ -1,0 +1,6 @@
+framework module Pods_StreamingSDKTests {
+  umbrella header "Pods-StreamingSDKTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
